@@ -387,9 +387,9 @@ public class MainActivity extends AppCompatActivity {
         final String StaffRole = RoleInput.getSelectedItem().toString();
 
         FirebaseOptions firebaseOptions = new FirebaseOptions.Builder()
-                .setDatabaseUrl("https://blood-dono-app.firebaseio.com")
-                .setApiKey("AIzaSyA1520uZeSwRE3_so1t6L48ZoWFihQgrQI")
-                .setApplicationId("1:585472619878:android:21c4a72bfb7faf029784a7").build();
+                .setDatabaseUrl("REVOKED")
+                .setApiKey("REVOKED")
+                .setApplicationId("REVOKED").build();
         try {
             FirebaseApp myApp = FirebaseApp.initializeApp(getApplicationContext(), firebaseOptions, "NHS_Staff");
             mAuth2 = FirebaseAuth.getInstance(myApp);
